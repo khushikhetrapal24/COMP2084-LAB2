@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Index";
+    <h2>Product</h2>
+    foreach (string item in ViewBag.product)
+    {
+      <h2><a href=" /products/details/@item">@item</a></h2>
+    }
+}
+
+
